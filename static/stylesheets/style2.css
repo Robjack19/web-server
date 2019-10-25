@@ -1,0 +1,92 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+ 
+body
+{
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5),rgb(0, 0, 0)),url(../images/bg2.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 100vh;
+    overflow-x: hidden;
+}
+
+.robjack
+{
+    color: #00ff00;
+    position: relative;
+    top: 200px;
+    left: 30%;
+}
+
+.menue
+{
+    position: relative;
+    top: 200px;
+    left: 25%;
+    list-style: none;
+    margin: 50px;
+}
+
+.menue li
+{
+    display: inline;
+    margin: 10px 5px;
+
+}
+
+.menue li a
+{
+    text-decoration: none;
+    color: #00ff00;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    border: 1px solid #00ff00;
+}
+
+.menue li a:hover
+{
+    color: #000000;
+    background: #00ff00;
+    transition: .5s;
+    color: #000000;
+}
+
+.back
+{
+    position: relative;
+    left: 42%;
+    top: 200px; 
+    list-style: none;
+    margin: 50px;
+}
+
+.back li
+{
+    display: inline;
+    margin: 10px 5px;
+
+}
+
+.back li a
+{
+    text-decoration: none;
+    color: #000000;
+    background: #00ff00;
+    padding: 5px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    letter-spacing: 2px;
+    border: 1px solid #000000;
+}
+
+.back li a:hover
+{
+    color: #00ff00;
+    background: #000000;
+    transition: .5s;
+    border: 1px solid #00ff00;
+}
